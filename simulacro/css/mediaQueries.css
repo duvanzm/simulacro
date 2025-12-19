@@ -1,0 +1,83 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ESTILOS GENERALES */
+.text-green {
+  color: #5edd5e;
+}
+
+.btn {
+  background-color: #5edd5e;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* ===================== */
+/* NAVBAR (MOBILE FIRST) */
+/* ===================== */
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding: 15px;
+}
+
+.nav .logo,
+.nav .menu-list,
+.nav .menu-user {
+  justify-content: center;
+  text-align: center;
+}
+
+.nav .menu-list,
+.nav .menu-user {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav .menu-user .sign-up {
+  background-color: #5edd5e;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.nav .menu-user .sign-up a {
+  color: #fff;
+}
+
+.nav .menu-user .login a {
+  color: #5edd5e;
+}
+
+/* DESKTOP NAV */
+@media (min-width: 768px) {
+  .
